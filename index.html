@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
-
+    <!-- Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="extras.html">Extras</a></li>
+        </ul>
+    </nav>
     <!-- Welcome Section -->
     <header>
         <h1>Welcome to Odin Recipes</h1>
@@ -26,129 +34,57 @@
     <hr>
 
     <!-- Soups Section -->
-    <section>
-        <h2>Comforting Soups</h2>
+    <section class="recipe-grid">
+        <a href="./recipes/adobo.html" class="recipe-card">
+            <img src="./images/adobo.jpeg" alt="Pork Adobo">
+            <h3>Pork Adobo</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/tinola.jpeg" width="150" height="150" alt="Chicken Tinola">
-                <figcaption>Chicken Tinola - A comforting ginger-flavored chicken soup with vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/tinola.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
+         <a href="./recipes/sinigang.html" class="recipe-card">
+            <img src="./images/sinigang.jpeg" alt="Pork Sinigang">
+            <h3>Pork Sinigang</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/sinigang.jpeg" width="150" height="150" alt="Pork Sinigang">
-                <figcaption>Pork Sinigang - A classic Filipino sour soup with pork and fresh vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/sinigang.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
-    </section>
+         <a href="./recipes/tinola.html" class="recipe-card">
+            <img src="./images/tinola.jpeg" alt="Chicken Tinola">
+            <h3>Chicken Tinola</h3>
+        </a>
 
-    <hr>
+         <a href="./recipes/karekare.html" class="recipe-card">
+            <img src="images/karekare.jpeg" alt="Beef Kare-Kare">
+            <h3>Beef Kare-Kare</h3>
+        </a>
 
-    <!-- Hearty Stews Section -->
-    <section>
-        <h2>Hearty Stews</h2>
+         <a href="./recipes/menudo.html" class="recipe-card">
+            <img src="images/menudo.jpeg" alt="Pork Menudo">
+            <h3>Pork Menudo</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/adobo.jpeg" width="150" height="150" alt="Pork Adobo">
-                <figcaption>Pork Adobo - The iconic Filipino dish of tender pork simmered in soy sauce and vinegar</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/adobo.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
+        <a href="./recipes/giniling.html" class="recipe-card">
+            <img src="images/giniling.jpeg" alt="Pork Giniling">
+            <h3>Pork Giniling</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/karekare.jpeg" width="150" height="150" alt="Beef Kare-Kare">
-                <figcaption>Beef Kare-Kare - A creamy peanut-based stew with tender beef and vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/karekare.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
+        <a href="./recipes/kaldereta.html" class="recipe-card">
+            <img src="images/kaldereta.jpeg" alt="Beef Kaldereta">
+            <h3>Beef Kaldereta</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/menudo.jpeg" width="150" height="150" alt="Pork Menudo">
-                <figcaption>Pork Menudo - A rich stew with pork, liver, potatoes, and carrots cooked in tomato sauce</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/menudo.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
+        <a href="./recipes/afritada.html" class="recipe-card">
+            <img src="images/afritada.jpeg" alt="Chicken Afritada">
+            <h3>Chicken Afritada</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/kaldereta.jpeg" width="150" height="150" alt="Beef Kaldereta">
-                <figcaption>Beef Kaldereta - A hearty beef stew with tomato sauce, liver spread, and vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/kaldereta.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
+        <a href="./recipes/pancit.html" class="recipe-card">
+            <img src="images/pancit.jpeg" alt="Pancit Bihon">
+            <h3>Pancit Bihon</h3>
+        </a>
 
-        <article>
-            <figure>
-                <img src="./images/afritada.jpeg" width="150" height="150" alt="Chicken Afritada">
-                <figcaption>Chicken Afritada - Chicken cooked in a savory tomato-based sauce with vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/afritada.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
-    </section>
+        <a href="./recipes/lumpia.html" class="recipe-card">
+            <img src="images/lumpia.jpeg" alt="Pork Lumpia">
+            <h3>Pork Lumpia</h3>
+        </a>
 
-    <hr>
-
-    <!-- Noodles Section -->
-    <section>
-        <h2>Festive Noodles</h2>
-
-        <article>
-            <figure>
-                <img src="./images/pancit.jpeg" width="150" height="150" alt="Pancit Bihon">
-                <figcaption>Pancit Bihon - Stir-fried rice noodles with meat and vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/pancit.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
-    </section>
-
-    <hr>
-
-    <!-- Snacks Section -->
-    <section>
-        <h2>Snacks & Appetizers</h2>
-
-        <article>
-            <figure>
-                <img src="./images/lumpia.jpeg" width="150" height="150" alt="Pork Lumpia">
-                <figcaption>Pork Lumpia - Crispy spring rolls filled with pork and vegetables</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/lumpia.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
-
-        <article>
-            <figure>
-                <img src="./images/giniling.jpeg" width="150" height="150" alt="Pork Giniling">
-                <figcaption>Pork Giniling - Ground pork cooked with vegetables in tomato sauce</figcaption>
-            </figure>
-            <ul>
-                <li><a href="./recipes/giniling.html"><strong>View Recipe</strong></a></li>
-            </ul>
-        </article>
     </section>
 
     <hr>
