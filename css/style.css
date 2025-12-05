@@ -95,3 +95,166 @@ img {
     transform: scale(1.03);
     box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
 }
+
+.recipe-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+}
+
+.recipe-page h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: var(--primary);
+}
+
+.recipe-page h2{
+    font-size: 28px;
+    margin-top: 30px;
+    color: var(--accent);
+}
+
+.recipe-page ul, .recipe-page ol {
+    font-size: 18px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.recipe-page li {
+    margin-bottom: 8px;
+}
+
+.recipe-page img {
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 550px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+}
+
+.recipe-details {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.recipe-details span {
+    background: var(--accent);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 12px 0;
+}
+
+.recipe-page {
+    margin-top: 0;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #C2A68C;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.back-button:hover  {
+    background-color: #5D866C;
+    transform: scale(1.05);
+}
+
+.hero {
+    background: url('../images/herobanner.jpeg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.hero-content {
+    position: relative;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+.hero-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 28px;
+    background: #C2A68C;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background: #5D866C;
+    transform: scale(1.04);
+}
+
+.story {
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.story  h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.site-footer {
+    background-color: #C2A68C;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 16px;
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.site-footer small {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    opacity: 0,9;
+}
